@@ -7,8 +7,8 @@
 body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: #fff;
+  background: rgb(17, 17, 35);
+  color: white;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 .game {
   width: 100%;
   max-width: 360px;
-  background: #1e293b;
+  background: rgb(34, 34, 72);
   padding: 25px;
   border-radius: 12px;
   text-align: center;
@@ -63,13 +63,13 @@ button {
 }
 
 #checkBtn {
-  background: #22c55e;
-  color: #000;
+  background: lawngreen;
+  color: black;
 }
 
 #resetBtn {
-  background: #ef4444;
-  color: #fff;
+  background: red;
+  color: white;
 }
 
 #message {
