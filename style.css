@@ -47,3 +47,37 @@ input {
   border: none;
   outline: none;
 }
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#checkBtn {
+  background: #22c55e;
+  color: #000;
+}
+
+#resetBtn {
+  background: #ef4444;
+  color: #fff;
+}
+
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.score {
+  margin-top: 10px;
+  opacity: 0.85;
+}
