@@ -81,3 +81,32 @@ button {
   margin-top: 10px;
   opacity: 0.85;
 }
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .btns {
+    flex-direction: row;
+  }
+
+  button {
+    flex: 1;
+  }
+}
+
+
+@media (min-width: 900px) {
+  .game {
+    max-width: 400px;
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+}
